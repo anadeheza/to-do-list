@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lista">
+        <h1>࣪My To-Do List 𐦂𖨆𐀪𖠋</h1>
+        <h2>𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟 </h2>
+        <div class="input-group">
+            <input type="text" id="task-input" placeholder="Add a new task! ✎ᝰ.">
+            <input type="text" id="tag-input" placeholder="Tag (optional)">
+            <span onclick="newTask()" class="addBtn">Add</span>
+        </div>
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Search tasks...">
+            <h1> ⌕</h1>
+        </div>
+        <select id="tag-filter">
+            <option value="">All tags</option>
+        </select>
+        <ul class="tasks"></ul>
+        <span onclick="clearTasks()" class="clearAllBtn">Clear All Tasks</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
