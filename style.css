@@ -164,13 +164,18 @@ body {
     .lista h2 {
         display: none;
     }
-    
+
     .search {
         flex-direction: row;
         align-items: center;
     }
+
     .search input {
         width: 90%;
+    }
+
+    .search h1 {
+        display: none;
     }
 
     #tag-filter {
