@@ -161,6 +161,11 @@ body {
         padding: 20px;
     }
 
+    .lista h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 28px;
+    }
+
     .lista h2 {
         display: none;
     }
