@@ -160,6 +160,11 @@ body {
         width: 90%;
         padding: 20px;
     }
+
+    .lista h2 {
+        display: none;
+    }
+    
     .search {
         flex-direction: row;
         align-items: center;
